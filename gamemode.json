@@ -1,1 +1,34 @@
-тут назыание режима и его описание
+{
+  "Name": "<b><i><color=lime>ПОКУПКИ</color> от Luna!!!</i></b>",
+  "Description": "<b><i>Покупки</i></b>",
+  "StartClientVersion": 510,
+  "MapFilter": {
+    "IsBlank": false,
+    "HasParcourEnd": false
+  },
+  "MapLists": [
+    {
+      "MapListId": 17180, 
+      "Name": "Создал LUNА!!!: Карты для режима ПОКУПКИ"
+    }
+  ],
+  "Parameters": {
+    "Bool": [
+      {
+        "Name": "hello",
+        "DisplayName": "Приветствовать игроков при входе",
+        "Default": true
+      },
+      {
+        "Name": "miniHp",
+        "DisplayName": "50хп",
+        "Default": false
+      },
+      {
+        "Name": "bigHp",
+        "DisplayName": "150хп",
+        "Default": false
+      }
+    ]
+  }
+}
